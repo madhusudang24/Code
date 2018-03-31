@@ -1,18 +1,18 @@
 Decimal		Roman
-	1			I
-	5			V
-	10			X
-	50			L
-	100			C
-	500			D
-	1000			M
+	1	I
+	5	V
+	10	X
+	50	L
+	100	C
+	500	D
+	1000	M
 
 step1	: 1->I,	   10->X,    100->C,	     	  
-	      2->II,	 20->XX,   200->CC,     
-  	    3->III,   30->XXX,  300->CC,    
+	  2->II,   20->XX,   200->CC,     
+  	  3->III,  30->XXX,  300->CC,    
 step2	:  5->V,  6->VI,  7->VII,   8->VIII
-		     50->L, 60->VI, 70->VII,   80->VIII
-		     500->D, 600->DC,  700->DCC,  800->DCC
+	   50->L, 60->VI, 70->VII,   80->VIII
+	   500->D, 600->DC,  700->DCC,  800->DCC
 step3	 :  4->IV,   40->LX,  400->CD, 
 step4	 :  9->IX,   90->XC,  900->CM
 
